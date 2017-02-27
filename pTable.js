@@ -1,3 +1,10 @@
+/*  pTable.js
+*   Original author Phillip Klawansky
+*   Use of this control is not restricted provided this comment remains in this file for reference
+*   https://github.com/pklawansky/pTable
+*   Published 2017-02-27
+*/
+
 (function (pTable, $, undefined) {
 
     //***Defining global variables
