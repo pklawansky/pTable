@@ -213,7 +213,7 @@
     };
 
     /**
-* pagination - form needs SortExpression (query column name), SortDirection (Ascending, Descending). table needs th with class sortHead and data-key of value equal to SortExpression
+* pagination - form needs SortExpression (query column name), SortDirection (Ascending, Descending). table needs th with class sortHead and data-key of value equal to SortExpression, table must have data-rowcount with total results without pagination
 * @namespace pTable.js
 * @method pagination
 * @param {Object} _searchForm - form used to search table
@@ -229,7 +229,7 @@
     };
 
     /**
-* sortingPagination - form needs SortExpression (query column name), SortDirection (Ascending, Descending). table needs th with class sortHead and data-key of value equal to SortExpression
+* sortingPagination - form needs SortExpression (query column name), SortDirection (Ascending, Descending). table needs th with class sortHead and data-key of value equal to SortExpression, table must have data-rowcount with total results without pagination
 * @namespace pTable.js
 * @method sortingPagination
 * @param {Object} _searchForm - form used to search table
